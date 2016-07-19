@@ -1,0 +1,51 @@
+{ "name": "npm-config2env-datatypes-demo",
+  "version": "0.0.1",
+  "description": "How does npm-config map keys and data types to the environment?",
+  "keywords": [ "npm-config" ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/npm-config2env-datatypes-demo-js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/npm-config2env-datatypes-demo-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/npm-config2env-datatypes-demo-js/issues"
+  },
+
+  "config": {
+    "str": "supported",
+    "int": -123,
+    "float": -3.1415,
+    "false": false,
+    "true": true,
+    "null": null,
+    "arr": [ 2, 5, [ "sub", "array" ], 9 ],
+    "obj": { "dog": "woof", "cat": "meow" },
+    "123": "positive",
+    "0": "zero",
+    "-123": "negative",
+    "?": "snowman",
+    " ": "nbsp",
+    "conflict:": "colon wins! (this time)",
+    "conflict-": "minus wins! (this time)",
+    "conflict+": "plus wins! (this time)",
+    "key w  spaces  ": "",
+    "key/w//slashes//": "",
+    "key\\h\\backslashes\\\\": "",
+    "key_w__underscores__": "",
+    "key.w..dots..": "",
+    "key-w--dashes--": "",
+    "key$w$$dollars$$": "",
+    "key[]w][brackets[]": "",
+    "MiXedCaseKey": "I'm a MiXedCaseKey!",
+    "mixedcasekey": "doesn't conflict with MiXedCaseKey"
+  },
+
+  "private": false, "license": "ISC",
+
+  "main": "dump.js",
+  "scripts": { "start": "nodejs dump.js" },
+
+  "dependencies": { "pad": "^1.0.0" }
+}
