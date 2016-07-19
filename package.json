@@ -1,5 +1,5 @@
 { "name": "npm-config2env-datatypes-demo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "How does npm-config map keys and data types to the environment?",
   "keywords": [ "npm-config" ],
 

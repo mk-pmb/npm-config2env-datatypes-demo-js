@@ -37,7 +37,7 @@ $ npm start
                     …null = str "null"
                  …obj_cat = str "meow"
                  …obj_dog = str "woof"
-                     …str = str "officially supported"
+                     …str = str "supported"
                     …true = str "true"
 ```
 
