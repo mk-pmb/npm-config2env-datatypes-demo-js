@@ -15,8 +15,8 @@
     "123": "positive",
     "0": "zero",
     "-123": "negative",
-    "?": "snowman",
-    " ": "nbsp",
+    "\u2603": "snowman",
+    "\u00A0": "nbsp",
     "conflict:": "colon wins! (this time)",
     "conflict-": "minus wins! (this time)",
     "conflict+": "plus wins! (this time)",
@@ -43,9 +43,8 @@
   },
 
   "private": false, "license": "ISC",
-
   "main": "dump.js",
   "scripts": { "start": "nodejs dump.js" },
-
-  "dependencies": { "pad": "^1.0.0" }
+  "dependencies": { "pad": "^1.0.0" },
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
 }
