@@ -3,16 +3,6 @@
   "description": "How does npm-config map keys and data types to the environment?",
   "keywords": [ "npm-config" ],
 
-  "author": "M.K. (https://github.com/mk-pmb)",
-  "homepage": "https://github.com/mk-pmb/npm-config2env-datatypes-demo-js#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mk-pmb/npm-config2env-datatypes-demo-js.git"
-  },
-  "bugs": {
-    "url": "https://github.com/mk-pmb/npm-config2env-datatypes-demo-js/issues"
-  },
-
   "config": {
     "str": "supported",
     "int": -123,
@@ -40,6 +30,16 @@
     "key[]w][brackets[]": "",
     "MiXedCaseKey": "I'm a MiXedCaseKey!",
     "mixedcasekey": "doesn't conflict with MiXedCaseKey"
+  },
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/npm-config2env-datatypes-demo-js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/npm-config2env-datatypes-demo-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/npm-config2env-datatypes-demo-js/issues"
   },
 
   "private": false, "license": "ISC",
