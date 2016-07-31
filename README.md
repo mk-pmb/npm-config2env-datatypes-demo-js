@@ -7,6 +7,14 @@ how are certain data types and key names converted?
 Let's test it! The script in this package just dumps the relevant parts of
 its environment, for input see [package.json](package.json).
 
+  * __Pro tip:__ To test any package config without special preparation
+    (albeit less pretty), just run `npm run env`.
+    * If a package defines its own `env` script, that is a special
+      preparation. Use at own risk.
+
+
+Example
+-------
 ```text
 $ node-version
 Node.js v5.7.1, npm v3.6.0, Ubuntu 14.04.4 LTS trusty
@@ -37,6 +45,7 @@ $ npm start
                     …null = str "null"
                  …obj_cat = str "meow"
                  …obj_dog = str "woof"
+                …snow_man = str "snow☃man"
                      …str = str "supported"
                     …true = str "true"
 ```

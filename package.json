@@ -1,5 +1,5 @@
 { "name": "npm-config2env-datatypes-demo",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "How does npm-config map keys and data types to the environment?",
   "keywords": [ "npm-config" ],
 
@@ -28,6 +28,7 @@
     "key-w--dashes--": "",
     "key$w$$dollars$$": "",
     "key[]w][brackets[]": "",
+    "snow☃man": "snow☃man",
     "MiXedCaseKey": "I'm a MiXedCaseKey!",
     "mixedcasekey": "doesn't conflict with MiXedCaseKey"
   },
